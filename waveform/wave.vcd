@@ -1,0 +1,77 @@
+$date
+	Mon Jun 22 14:17:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 8 ! rd_data [7:0] $end
+$var reg 1 " clk $end
+$var reg 3 # rd_addr [2:0] $end
+$var reg 1 $ rst $end
+$var reg 3 % wr_addr [2:0] $end
+$var reg 8 & wr_data [7:0] $end
+$var reg 1 ' wr_en $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 3 ( rd_addr [2:0] $end
+$var wire 8 ) rd_data [7:0] $end
+$var wire 1 $ rst $end
+$var wire 3 * wr_addr [2:0] $end
+$var wire 8 + wr_data [7:0] $end
+$var wire 1 ' wr_en $end
+$var integer 32 , i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 ,
+b0 +
+b0 *
+b0 )
+b0 (
+0'
+b0 &
+b0 %
+1$
+b0 #
+0"
+b0 !
+$end
+#5
+b1000 ,
+1"
+#10
+0"
+#15
+b1000 ,
+1"
+#20
+0"
+b10101010 &
+b10101010 +
+b11 %
+b11 *
+1'
+0$
+#25
+1"
+#30
+0"
+b10101010 !
+b10101010 )
+b11 #
+b11 (
+0'
+#35
+1"
+#40
+0"
+#45
+1"
+#50
+0"
