@@ -1,0 +1,12 @@
+# Icarus Verilog / simulation build artifacts
+reg1_sim
+*.vvp
+*.out
+
+# Keep VCD if you want it versioned for reference; uncomment to ignore instead
+# *.vcd
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
